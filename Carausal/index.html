@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carausal</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        html{
+            font-size: 62.5%;
+        }
+        body{
+            height: 100vh;
+            display:grid;
+            place-items: center;
+        }
+        .container-img{
+            width: 60vw;
+            height: 50rem;
+            border-radius:1rem;
+            box-shadow:rgba(100,100,111,0.2) 0px 7px 29px 0px;
+            background-image: url(https://images.pexels.com/photos/2166711/pexels-photo-2166711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-size: cover;
+            animation: gallery 20s linear infinite;
+        }
+        @keyframes gallery{
+            0% {
+                background-image: url("https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+            }
+            20%{
+                background-image: url(https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+            }
+            40% {
+                background-image: url(https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&w=1200)
+            }
+            60%{
+                background-image: url(https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1200)
+            }
+            80%{
+                background-image: url(https://images.pexels.com/photos/2835562/pexels-photo-2835562.jpeg?auto=compress&cs=tinysrgb&w=1200);
+            
+            }
+            100%{
+                background-image: url(https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-img"></div>
+</body>
+</html>
+
+
+
+
+
+

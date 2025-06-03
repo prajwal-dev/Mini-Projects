@@ -1,11 +1,100 @@
  /* base rule */
 
 
- /* theme */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist",sans-serif;
+}
+html{
+    font-size:62.5%;
+    /* 1rem=10px */
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: "Poppins",sans-serif; 
+}
+
+p,li,a{
+    font-family: "Urbanist",sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    color: var(--para-color);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ /* theme */
+:root{
+    --main-color:#0062ff;
+    --supporting-color:#ebf3fe;
+    --font-color:#424242;
+    --bg-color:#ffffff;
+    --heading-color:#000a19;
+    --para-color:#504e4d; 
+
+}
 
  /* layout */
+
+ .container{
+    max-width: 128rem;
+    /* 1290px */
+    margin: 0 auto;
+    padding: 9.6rem 2.4rem;
+ }
 
  /* module / reuable */
 
  /* states */
+
+
+ 
+/* navbar Section start */
+.section-navbar{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.section-navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem 0;
+}
+
+.section-navbar .navbar ul{
+    display: flex;
+    gap: 3.2rem;
+    text-transform: capitalize;
+
+    & li a {
+       color: var(--heading-color);
+       text-transform: uppercase;
+       font-weight: 600;
+       font-size: 1.6rem;
+       display:inline-block;
+       position: relative;
+
+       &::after{
+        content:"";
+        position: absolute;
+        bottom: -0.3rem;
+        left: 0;
+        width: 0%;
+        border-bottom: 0.2rem solid var(--main-color);
+        transition: all .3s linear;
+       }
+    }
+    & li a:hover:after{
+            width: 100%;
+    }
+}
+
+/* navbar Section end */

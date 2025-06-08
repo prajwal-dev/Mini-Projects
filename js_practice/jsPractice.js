@@ -56,6 +56,6 @@
 //? 3: Update march to March (update)?
 //? 4: Delete June from an array?
 
-const months = ["Jan", "march", "April", "June", "July"];
+// const months = ["Jan", "march", "April", "June", "July"];
 
-const arr= months.splice()
+// const arr= months.splice()

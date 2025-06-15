@@ -51,3 +51,51 @@
 <!--! 50 GFG Questions -->
 
 https://www.geeksforgeeks.org/javascript/javascript-coding-questions-and-answers/
+
+🟢 Beginner Level
+Sum of Two Numbers
+Write a function add(a, b) that returns the sum of two numbers.
+
+Check Even or Odd
+Write a function isEven(n) that returns true if the number is even, otherwise false.
+
+Find the Maximum of Three Numbers
+Write a function maxOfThree(a, b, c) that returns the largest of the three numbers.
+
+Convert Celsius to Fahrenheit
+Write a function that converts Celsius to Fahrenheit using the formula F = C \* 1.8 + 32.
+
+Get First Character of String
+Write a function that returns the first character of a given string.
+
+🟡 Intermediate Level
+Factorial of a Number
+Write a function factorial(n) that returns the factorial of a number using recursion.
+
+Check for Palindrome
+Write a function isPalindrome(str) that returns true if the string is a palindrome (ignores case and spaces).
+
+Count Vowels in a String
+Write a function countVowels(str) that counts and returns the number of vowels in the string.
+
+Reverse a String
+Write a function reverseString(str) that returns the reversed version of the input string.
+
+Find Prime Numbers in a Range
+Write a function printPrimes(n) that prints all prime numbers from 1 to n.
+
+🔵 Advanced/Challenge Level
+Check if Array is Sorted
+Write a function isSorted(arr) that returns true if the array is sorted in ascending order.
+
+Flatten a Nested Array
+Write a function flatten(arr) that flattens a deeply nested array into a single array.
+
+Find Unique Elements
+Write a function that returns only the unique elements from an array.
+
+Custom Map Function
+Implement your own version of the map function without using Array.prototype.map.
+
+Memoization Function
+Write a function that caches the result of another function (basic memoization).

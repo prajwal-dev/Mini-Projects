@@ -59,3 +59,18 @@
 // const months = ["Jan", "march", "April", "June", "July"];
 
 // const arr= months.splice()
+
+// function expression
+// const add= function sum(a,b){
+    
+//     console.log(a+b)
+    
+// }
+// add(2,5)
+
+const add= (a,b)=>{
+    
+    console.log(a+b)
+    
+}
+add(2,9)

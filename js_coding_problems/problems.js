@@ -113,3 +113,99 @@
 
 // Get First Character of String
 // Write a function that returns the first character of a given string.
+
+// ! For ...of
+//?🔁 Basic Level
+//*1️⃣ Using for...of, loop through an array of numbers and print each number.
+// let arr=[2,4,5,7,8,9];
+// for (let item of arr){
+//     console.log(item)
+// }
+//*2️⃣ Using for...in, loop through an object and print each key and its corresponding value.
+// let obj={
+//     a:1,
+//     b:2,
+//     c:3
+// };
+// for(key in obj){
+//     console.log(`${key}: ${obj[key]} `)
+// }
+
+// * Also we can do the above question by for..fo loop but we have to use default object methods.
+
+ 
+
+//* 3️⃣ Given a string, use for...of to print each character.
+// let str=["abc","def"];
+// for (let item of str){
+//     console.log(item)
+// }
+
+//* 4️⃣ Given an array of names, use for...of to create a new array with names in uppercase.
+// const names = ["prajwal", "sneha", "rahul", "ananya"];
+// const uppercasedNames = [];
+
+// for (const name of names) {
+//   uppercasedNames.push(name.toUpperCase());
+// }
+
+// console.log(uppercasedNames);
+
+
+//! For Each()
+//? 1️⃣ Print each number in an array:
+// const number=[11,22,33,44]
+//     number.forEach(function(elem){
+//         console.log(elem)
+//     })
+//? 2️⃣ Print "Hello, [name]" for each name in an array:
+// const names = ["Prajwal", "Sneha", "Amit"];
+// names.forEach((elem)=>{
+//     console.log(` Hello, ${elem}`)
+// })
+        
+//? 3️⃣ Add 10 to each number in an array and log the result.
+// const arr=[1,2,3,4,5];
+//  arr.forEach((elem)=>{
+ 
+//    console.log(elem +10)
+//  })
+
+//? 4️⃣ Count how many strings in the array have more than 5 characters.
+// const arr = ["apple", "banana", "grapes", "kiwi", "mango", "pineapple"];
+// let count =0;
+// arr.forEach((str)=>{
+//     if(str.length>5){
+//         count++
+//     }
+   
+// });
+// console.log(count)
+
+//? 5️⃣ Given an array of student objects, print names of students who scored above 80:
+
+// const students = [
+//     { name: "Prajwal", score: 92 },
+//     { name: "Neha", score: 75 },
+//     { name: "Rahul", score: 88 }
+//   ];
+// students.forEach((elem) =>{
+//     if(elem.score>80){
+//         console.log(elem.name)
+//     }
+// })
+
+
+//? 6️⃣ Use .forEach() to convert an array of strings into an array of string lengths.
+const fruits = ["apple", "banana", "kiwi"];
+// fruits.forEach(function(value){
+//     console.log(value.length);
+// })
+
+//Using for of 
+const newArray=[]
+for(let item of fruits){
+    
+    newArray.push(item.length)
+}
+console.log(newArray)

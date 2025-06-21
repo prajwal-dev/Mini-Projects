@@ -68,9 +68,28 @@
 // }
 // add(2,5)
 
-const add= (a,b)=>{
+// const add= (a,b)=>{
     
-    console.log(a+b)
+//     console.log(a+b)
     
-}
-add(2,9)
+// }
+// add(2,9)
+
+// function a(){
+//     let b=10;
+//     c();
+//     function c(){
+//         console.log(b)
+//     }
+    
+// }
+
+// a()
+
+let a=100;
+
+
+console.log(a)
+
+
+

@@ -1,15 +1,8 @@
-var like=document.querySelector("i");
-var con=document.querySelector("#container");
+const a=document.querySelector("#main");
+const crsr=document.querySelector(".cursor")
 
-con.addEventListener("dblclick",function(){
-    like.style.transform="translate(-50%,-50%) scale(1)";
-    like.style.opacity=0.8;
-    setTimeout(function(){
-        like.style.opacity=0;
-    },1000)
 
-    setTimeout(function(){
-        like.style.transform="translate(-50%,-50%) scale(0)"
-    },2000)
+a.addEventListener("mousemove",function(illa){
+ crsr.style.left=illa.x +"px"
+ crsr.style.top=illa.y +"px"
 })
-

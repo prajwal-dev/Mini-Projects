@@ -14,7 +14,7 @@ add.addEventListener("click",function(){
         add.innerHTML="Add Friend";
         add.style.backgroundColor=  "cadetblue";
         isstatus.innerHTML="Stranger";
-        isstatus.style.color="red";
+        isstatus.style.color="rgb(88, 87, 87)";
         flag=0;
     }
    

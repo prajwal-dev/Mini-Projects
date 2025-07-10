@@ -86,10 +86,59 @@
 
 // a()
 
-let a=100;
+// let a=100;
 
 
-console.log(a)
+// console.log(a)
+
+// * callback function
+// setTimeout(function (){
+//     console.log('timer')
+// },5000)
+// function x(y){
+//     console.log("x")
+//     y();
+// }
+// x(function y(){
+//     console.log("y")
+// })
 
 
 
+// *map()
+
+const arr=[5,1,3,2,6];
+
+const output=arr.map(function double (x){
+    return x*2
+})
+console.log(output);
+// arrow
+const output2=arr.map((x)=>{
+    return x.toString(2);
+})
+console.log(output2)
+
+
+// * filter method
+
+const output3 =arr.filter(function isOdd(x){
+    return x%2;
+})
+console.log(output3)
+
+//* reduce
+const output4=arr.reduce(function(acc,curr){
+    acc=acc + curr;
+    return acc;
+},0)
+console.log(output4)
+
+const output5=arr.reduce(function(max,curr2){
+    if(curr2>max){
+        max=curr2;
+    }
+    return max;
+},0)
+
+console.log(output5)

@@ -16,21 +16,47 @@
 // }
 // console.log(str2.length);
 
-// methods
-let naam = "prajwal bhagat";
-let newName = naam.toUpperCase();
-console.log(newName);
-let name2 = "BHAGAT";
-console.log(name2.toLowerCase());
-let name3 = "      dilip     ";
-console.log(name3.trim());
-console.log(naam.concat(name2, name3));
-console.log(name3.includes("dilip"));
-console.log(naam.indexOf("a"));
-console.log(naam.charAt("3"));
-console.log(naam.replace("prajwal", "dilip"));
+//! methods
+// let naam = "prajwal bhagat";
+// let newName = naam.toUpperCase();
+// console.log(newName);
+// let name2 = "BHAGAT";
+// console.log(name2.toLowerCase());
+// let name3 = "      dilip     ";
+// console.log(name3.trim());
+// console.log(naam.concat(name2, name3));
+// console.log(name3.includes("dilip"));
+// console.log(naam.indexOf("a"));
+// console.log(naam.charAt("3"));
+// console.log(naam.replace("prajwal", "dilip"));
 
-let username = "@prajwalbhgt";
-console.log(username.slice(8));
-let qwe = "alpha beta gamma";
-console.log(qwe.split(" "));
+// let username = "@prajwalbhgt";
+// console.log(username.slice(8));
+// let qwe = "alpha beta gamma";
+// console.log(qwe.split(" "));
+
+//! Create a program to take full name from user and generate a username start with @, followed by their full name and ends with underscore followed by thelength of full name.
+
+// let fullname = prompt("Enter your name");
+// let length = fullname.length;
+
+// let username = `@${fullname
+//   .trim()
+//   .replaceAll(" ", "")
+//   .toLowerCase()}_${length}`;
+// console.log(username);
+
+// 2. Take a string and a character from the user and:
+//a) count how many times that character appears in the string.
+// b) Case-Insensitive Version
+// c) Find All Occurrence Positions
+
+let str = prompt("Enter your string");
+let char = prompt("Enter your char");
+let count = 0;
+for (let val of str) {
+  if (val.toLowerCase() === char.toLowerCase()) {
+    count++;
+  }
+}
+console.log(count);

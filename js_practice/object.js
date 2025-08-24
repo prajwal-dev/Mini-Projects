@@ -162,12 +162,30 @@
 // ! Medium level
 // * 6} Given an object, swap its keys and values.
 // { a: 1, b: 2, c: 3 } → { 1: "a", 2: "b", 3: "c" }
-let obj = { a: 1, b: 2, c: 3 };
-function swap(obj) {
-  const swapped = {};
-  for (let key in obj) {
-    console.log(key);
-  }
-  return swapped;
-}
-swap(obj);
+// let obj = { a: 1, b: 2, c: 3 };
+// function swap() {
+//   const swapped = {};
+//   for (let key in obj) {
+//     // console.log(key);
+
+//     swapped[obj[key]] = key;
+//   }
+//   console.log(swapped);
+//   return swapped;
+// }
+// swap(obj);
+
+// * practice
+// let car = {
+//   brand: "laborgini",
+//   color: "red",
+//   maxSpeed: "200",
+//   stop: () => {
+//     console.log("stopping the car");
+//   },
+//   start: function () {
+//     console.log("starting the car");
+//   },
+// };
+// console.log(car.start);
+// console.log(car["brand"]);

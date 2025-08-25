@@ -20,11 +20,92 @@
 // let arr2 = ["a", "b", "c", "d", "e", "f"];
 // let combination = [...arr1, ...arr2];
 // also u can use concat
-console.log(combination);
+// console.log(combination);
 // * 3️⃣ Generate a random integer between 0 to 18.
 // let num = Math.floor(Math.random() * 19);
 // console.log(num);
 
 // * 4️⃣ Create a function that takes an array containing both numbers and strings, and returns a new array containing only the string values.
-let arr = [2, 4, 5, "a", "b", "3", "cde"];
-let resultArr = arr.filter((elem) => {});
+// let arr = [2, 4, 5, "a", "b", 3, "cde"];
+// let resultArr = arr.filter((elem) => {
+//   if (typeof elem === "string") {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+// console.log(resultArr);
+
+// * 5️⃣ Find the maximum number in an array.
+// let arr = [44, 5, 2, 78, 294, 930];
+//? Using Math.max Method
+// let maxNum = Math.max(...arr);
+// console.log(maxNum);
+//? Using Reduce Method
+// let max = arr.reduce((max, num) => {
+//   if (max > num) {
+//     return max;
+//   } else {
+//     return num;
+//   }
+// });
+// console.log(max);
+
+// * 6️⃣ Write a function that returns the length of a given object (number of keys).
+// let obj = {
+//   id: 101,
+//   model: "iphone",
+//   madeIn: "India",
+//   name: "iphone 12",
+//   price: "$399",
+// };
+// let numKey = (object) => {
+//   let num = Object.keys(object);
+//   console.log(num.length);
+// };
+
+// numKey(obj);
+
+// * 7️⃣  In an array of objects filter out those objects which have gender's value male.
+// let employee = [
+//   {
+//     name: "mike",
+//     gender: "male",
+//   },
+//   {
+//     name: "tina",
+//     gender: "female",
+//   },
+//   {
+//     name: "elon",
+//     gender: "male",
+//   },
+// ];
+// let filterArr = employee.filter((elem) => {
+//   return elem.gender === "male";
+// });
+// console.log(filterArr);
+
+// * 8️⃣ Given an array of strings, return a new array where all strings are in uppercase.
+// let arr = ["abc", "def", "ghi"];
+
+// let newArr = arr.map((arr) => {
+//   return arr.toUpperCase();
+// });
+// console.log(newArr);
+// * 9️⃣ Check if an object is empty (has no keys).
+// let obj = {};
+// if (Object.keys(obj).length === 0) {
+//   console.log("Obj is empty");
+// } else {
+//   console.log("Obj is not empty");
+// }
+// console.log(obj);
+
+// * 🔟 Create an array of numbers and double each value using .map().
+
+let num = [2, 3, 4, 5, 6];
+let double = num.map((num) => {
+  return num * 2;
+});
+console.log(double);

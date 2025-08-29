@@ -104,8 +104,33 @@
 
 // * 🔟 Create an array of numbers and double each value using .map().
 
-let num = [2, 3, 4, 5, 6];
-let double = num.map((num) => {
-  return num * 2;
-});
-console.log(double);
+// let num = [2, 3, 4, 5, 6];
+// let double = num.map((num) => {
+//   return num * 2;
+// });
+// console.log(double);
+
+// * 11} Convert an array of strings into a single comma-separated string.
+// let arr = ["apple", "mango", "banana"];
+// let str = arr.join();
+// console.log(str);
+
+// * 12} Write a function to flatten a nested array (one level deep).(e.g., [1, [2, 3], 4] → [1, 2, 3, 4])
+// let arr = [1, 2, 3, 4, [5, 6, 7]];
+// splice method
+// arr.splice(4, 1, ...arr[4]);
+// console.log(arr);
+
+// flat () method
+// let flatArr = arr.flat();
+// console.log(flatArr);
+
+//* 13}  Write a function that checks if all elements in an array are numbers.
+
+// * 14} Build a simple isPrime() function to check if a number is prime.
+// let num;
+// let isPrime=()=>{
+// if (num)
+
+// }
+// }
